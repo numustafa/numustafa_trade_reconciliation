@@ -4,7 +4,7 @@ numpy>=1.21.0
 openpyxl>=3.0.0                # For Excel file support
 
 # Jupyter Environment
-jupyter>=1.0.0
+jupyterlab>=1.0.0
 ipykernel>=6.0.0
 
 # Data Visualization
