@@ -24,7 +24,7 @@ def convert_qtr_into_months(qtr_row: pd.Series,
     # which months belong to the quarter (Q2-25 → Apr, May, Jun)
     months = ['2025-04', '2025-05', '2025-06']
 
-    qty_per_month = qtr_row['quantity_mwh'] / len(months)
+    qty_per_month = qtr_row['quantity_mwh'] 
     price         = qtr_row['price_eur_per_mwh']
 
     rows = []
